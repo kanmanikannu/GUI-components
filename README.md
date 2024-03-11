@@ -96,7 +96,8 @@ public class MainActivity extends AppCompatActivity
 
 ## OUTPUT
 
-![Output](https://github.com/kanmanikannu/GUI-components/assets/114866367/8eef67c0-d6fb-48a8-bf7c-fe88205327d1)
+![Output](https://github.com/kanmanikannu/GUI-components/assets/114866367/ff94a157-5fae-4bfa-b31d-b6f50f954261)
+
 
 
 ## RESULT
