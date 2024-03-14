@@ -32,6 +32,13 @@ Testing: Test your application on different devices and screen sizes to ensure p
 
 
 ## PROGRAM:
+```
+
+/*
+Program to print the text “Hello World”.
+Developed by: Kanmani U
+Registeration Number : 212221040070
+*/
 
 ```
 import androidx.appcompat.app.AppCompatActivity;
@@ -96,7 +103,7 @@ public class MainActivity extends AppCompatActivity
 
 ## OUTPUT
 
-![Output](https://github.com/kanmanikannu/GUI-components/assets/114866367/a511b13b-fad0-43d9-b9a5-b584e6b748e2)
+![Output](https://github.com/kanmanikannu/GUI-components/assets/114866367/89a11fa5-b668-4aa1-8fc5-60aba2a3e2b5)
 
 
 
