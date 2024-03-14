@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
 
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.GUIcomponents"
-        tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<TextView
+android:id="@+id/textView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="30dp"
+android:gravity="center"
+android:text="Hello World!"
+android:textSize="25sp"
+android:textStyle="bold" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
-</manifest>
+<Button
+android:id="@+id/button1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="20dp"
+android:gravity="center"
+android:text="Change font size"
+android:textSize="25sp" />
+<Button
+android:id="@+id/button2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="20dp"
+android:gravity="center"
+android:text="Change color"
+android:textSize="25sp" />
+</LinearLayout>
