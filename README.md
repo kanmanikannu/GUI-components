@@ -35,11 +35,12 @@ Testing: Test your application on different devices and screen sizes to ensure p
 ```
 
 /*
-Program to print the text “Hello World”.
-Developed by: Kanmani U
-Registeration Number : 212221040070
+Program to print the text “GUIcomponent”.
+Developed by:Kanmani U
+Registeration Number :212221040070
 */
 
+```
 ```
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -100,6 +101,7 @@ public class MainActivity extends AppCompatActivity
         });
     }
 }
+```
 
 ## OUTPUT
 
